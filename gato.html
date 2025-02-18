@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tres en Raya</title>
+    <link rel="stylesheet" href="src/style/gato.css"> 
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Tres en Raya</h1>
+        
+        <div class="modos">
+            <button id="multijugador-btn">Multijugador</button>
+            <button id="computadora-btn">Jugar vs Computadora</button>
+        </div>
+        
+        <div class="juego">
+            <div class="tablero">
+                <div class="celda"></div>
+                <div class="celda"></div>
+                <div class="celda"></div>
+                <div class="celda"></div>
+                <div class="celda"></div>
+                <div class="celda"></div>
+                <div class="celda"></div>
+                <div class="celda"></div>
+                <div class="celda"></div>
+            </div>
+            
+            <div class="estado">
+                <p id="indicador-turno">Turno: Jugador X</p>
+                <button onclick="reiniciarJuego()">Reiniciar</button>
+            </div>
+        </div>
+    </div>
+    <script src="src/js/gato.js"></script> 
+</body>
+</html>
